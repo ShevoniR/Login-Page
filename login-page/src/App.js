@@ -1,4 +1,3 @@
-// src/App.js - Complete Login Application
 import React, { useState } from 'react'
 import {
   Box,
@@ -49,7 +48,7 @@ const SuccessPage = ({ accessToken, user, onLogout }) => {
     <Container maxWidth="sm" sx={{ mt: 8 }}>
       <Paper elevation={3} sx={{ p: 4, borderRadius: 3 }}>
         <Typography variant="h4" gutterBottom align="center" sx={{ fontWeight: 700, mb: 3 }}>
-          Login Successful! 🎉
+          Login Successful!
         </Typography>
 
         {/* User Information */}
